@@ -1,0 +1,98 @@
+body{
+    background-color: linear-gradient(0deg, rgba(25,255,3,1) 0%, rgba(78,78,209,1) 49%, rgba(255,0,164,1) 100%);;
+    box-sizing: border-box;
+}
+
+.img{
+    width: 300px;
+    background-color: red;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+.card{
+    width: 400px;
+    background-color: rgb(120, 3, 112);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 1s;
+
+
+}
+
+.info{
+    width: 300px;
+    margin: auto;
+}
+.btn{
+    width: 300px;
+    margin:auto
+}
+
+button{
+    width: 100%;
+    background-color: gold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: help; 
+
+}
+
+.k{
+  text-align: center;
+}
+
+.a{
+    text-align: center;
+}
+
+.container{
+   
+}
+
+button:hover{
+    background-color: darkturquoise;
+    transition: all 1s;
+}
+
+body:hover{
+    background-color: purple;
+    transition: all 30s;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.card:hover{
+    width: 700px;
+    transition: all 1s;
+}
+
+.header{
+    width: 100%;
+height: 400px;
+overflow: hidden;
+position: relative;
+}
+
+.main image{
+    width: 100%;
+}
+
+.info-header{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
